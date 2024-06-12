@@ -1,34 +1,51 @@
 .greetingForm {
+    display: inline-block;
+    margin: 10px;
 }
 
 .inputAndButtonContainer {
+    display: flex;
 }
 
 .error {
+    color: #ad0d0d;
 }
 
 .input {
+    color: black;
 }
 
 .input:focus {
 }
 
 .errorInput {
+border: 1px solid red;
 }
 
 .button {
+    width: 50px;
+    margin-left: 5px;
+    background-color: rgba(39, 88, 215, 0.87);
+    color: white;
+    border-radius: 5px;
 }
 
 .button:focus {
+
 }
 
 .button:active {
+    border: 2px black;
 }
 
 .button:disabled {
+    background-color: rgba(152, 172, 224, 0.87);
+    color: white;
 }
 
 .text {
+    font-size: 12px;
+    margin-top: 10px;
 }
 
 .greeting {

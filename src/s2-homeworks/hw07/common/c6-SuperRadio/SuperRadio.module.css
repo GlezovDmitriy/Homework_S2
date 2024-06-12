@@ -1,15 +1,25 @@
 .radio {
+
 }
 
 .radio::before {
+
 }
 
 
 .radio:checked::before {
+
 }
 
 .label {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+    color: #b3001b;
 }
 
 .options {
+    padding: 20px;
 }

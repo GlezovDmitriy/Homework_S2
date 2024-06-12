@@ -17,7 +17,7 @@
 
 .friendText {
     position: relative;
-    z-index: 999;
+    z-index: 9;
 }
 
 .friendText:after {

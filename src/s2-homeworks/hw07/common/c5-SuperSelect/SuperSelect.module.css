@@ -1,9 +1,19 @@
 .select {
+    color: #ad0d0d;
+    margin: 20px;
+    border: #0059b3 1px solid;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+
 }
 
 .select:focus {
+    color: blue;
 }
 
 
 .option:hover {
+
 }
